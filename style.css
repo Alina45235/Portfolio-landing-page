@@ -1,0 +1,501 @@
+@font-face {
+  font-family: "Raleway400";
+  src:
+    url("./fonts/Raleway-Regular.woff2") format("woff2"),
+    url("./fonts/Raleway-Regular.woff") format("woff"),
+    url("./fonts/Raleway-Regular.ttf") format("truetype"),
+    local("Raleway");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Raleway800";
+  src:
+    url("./fonts/Raleway-ExtraBold.woff2") format("woff2"),
+    url("./fonts/Raleway-ExtraBold.woff") format("woff"),
+    url("./fonts/Raleway-ExtraBold.ttf") format("truetype"),
+    local("Raleway");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Raleway500";
+  src:
+    url("./fonts/Raleway-Medium.woff2") format("woff2"),
+    url("./fonts/Raleway-Medium.woff") format("woff"),
+    url("./fonts/Raleway-Medium.ttf") format("truetype"),
+    local("Raleway");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Raleway600";
+  src:
+    url("./fonts/Raleway-SemiBold.woff2") format("woff2"),
+    url("./fonts/Raleway-SemiBold.woff") format("woff"),
+    url("./fonts/Raleway-SemiBold.ttf") format("truetype"),
+    local("Raleway");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*===========================================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    max-width: 5453px;
+    min-height: 100vh;
+    background-color: #0E0D0D;
+}
+.header {
+    height: 70px;
+    width: 100%;
+    padding: 0px 110px 0px 98px;
+}
+.logo_text {
+    font-size: 15px;
+    display: inline-block;
+    margin-right: 550px;
+    color: #FFFFFF;
+    font-family: 'Raleway400', sans-serif;
+    line-height: 110px;
+    text-transform: uppercase;
+}
+
+.menu {
+    display: inline-block;
+    
+}
+
+.menu a{
+    margin-right: 21px;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Raleway400', sans-serif;
+    line-height: 110px;
+}
+
+
+.block_1 {
+  margin: 83px 92px 0px 98px;
+}
+
+.title_text {
+  display: inline-block;
+  font-family: 'Raleway800', sans-serif;
+  font-size: 94.06px;
+  width: 500px;
+  height: 314px;
+  color:white;
+  line-height: 90%;
+  position: relative;
+  top:-70px;
+  margin-right: 65px;
+}
+
+.main_img {
+  width: 372px;
+  height: 437px;
+  position: relative;
+  top:-10px;
+
+}
+.circle {
+    width: 41px;
+    height: 41px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: transparent;
+    position: relative;
+    left: 500px;
+    top: -205px;
+}
+
+.gal {
+  position: relative;
+  left: 454px;
+  top: 28px;
+}
+/*===========================*/
+.main_text {
+  font-family: 'Raleway400', sans-serif;
+  font-size: 65px;
+  color:#FFFFFF;
+  margin: 245px 107px 138px 96px;
+  width: 950px;
+  height: 240px;
+  line-height: 92%;
+  letter-spacing: -3.5%;
+  text-align: center;
+}
+
+.gal2 {
+  position: relative;
+  left: 553px;
+  top: 2px;
+}
+
+/*=============================*/
+.text_content {
+  font-family: 'Raleway500', sans-serif;
+  line-height: 92%;
+  letter-spacing: -3.5%;
+  font-size: 65px;
+  color:#FFFFFF;
+  margin-top: 107px;
+  margin-left: 398px;
+  margin-bottom: 140px;
+}
+
+.pic1, .pic2, .pic3, .pic4 {
+  display: block;
+  
+}
+
+.pic1{
+  margin: 0px 93px 50px 325px;
+}
+
+.pic2{
+  margin: 0px 416px 82px 123px;
+}
+
+.pic3{
+  margin: 0px 141px 80px 399px;
+}
+
+.pic4{
+  margin: 0px 95px 107px 72px;
+}
+
+.gal3 {
+  position: relative;
+  left: 553px;
+  top: -10px;
+  margin-bottom: 168px;
+}
+/*==================================*/
+.text_title {
+  font-family: 'Raleway500', sans-serif;
+  line-height: 92%;
+  letter-spacing: -1%;
+  font-size: 65px;
+  color:#FFFFFF;
+  margin-left: 425px;
+  margin-bottom: 90px;
+}
+
+.email {
+  font-family: 'Raleway400', sans-serif;
+  line-height: 92%;
+  letter-spacing: -3.5%;
+  font-size: 30px;
+  color:#FFFFFF;
+  text-transform: uppercase;
+  margin-left: 330px;
+  letter-spacing: 2.3px;
+  margin-bottom: 48px;
+}
+.social {
+  width: 770px;
+  height: 23px;
+  text-align: center;
+  margin: 0px 191px 176px 191px;
+}
+.social a {
+  text-decoration: none;
+  color: #BCBCBC;
+  font-family: 'Raleway600', sans-serif;
+  line-height: 92%;
+  letter-spacing: -3.5%;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-right:35px;
+  letter-spacing: 2px;
+}
+/*================================================*/
+
+.foot {
+  background-color: #FFFFFF;
+}
+.foot p {
+  display: inline-block;
+  font-family: 'Raleway400', sans-serif;
+  line-height: 87%;
+  font-size: 18px;
+  color:black;
+  text-transform: uppercase;
+
+}
+.logo {
+  margin: 32px 532px 36px 65px;
+}
+.privat {
+  margin: 33px 34px 36px 0px;
+  letter-spacing: 0.5px;
+}
+.conditions {
+  margin: 33px 46px 36px 0px;
+  letter-spacing: 0.5px;
+}
+
+/*================= АДАПТИВ =================*/
+.menu a {
+    transition: color 0.2s ease;
+}
+
+.menu a:hover {
+    color: #cccccc;
+}
+
+.social a {
+    transition: color 0.2s ease;
+}
+
+.social a:hover {
+    color: #ffffff;
+}
+
+.foot p {
+    transition: color 0.2s ease;
+    cursor: pointer;
+}
+
+.foot p:hover {
+    color: #666666;
+}
+
+/* АДАПТИВ */
+@media (max-width: 1400px) {
+    .logo_text {
+        margin-right: 300px;
+    }
+    
+    .title_text {
+        font-size: 80px;
+        width: 400px;
+        margin-right: 30px;
+    }
+    
+    .main_text {
+        font-size: 55px;
+        width: auto;
+        margin: 200px 80px 120px 80px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .header {
+        padding: 0 40px;
+    }
+    
+    .logo_text {
+        margin-right: 150px;
+    }
+
+    .block_1 {
+        margin: 50px 40px 0 40px;
+    }
+    
+    .title_text {
+        font-size: 70px;
+        width: 350px;
+        top: -20px;
+    }
+    
+    .main_img {
+        width: 300px;
+        height: auto;
+    }
+    
+    .circle {
+        left: 350px;
+        top: -150px;
+    }
+    
+    .gal {
+        left: 300px;
+    }
+
+    .main_text {
+        font-size: 45px;
+        margin: 150px 60px 100px 60px;
+    }
+    
+    .gal2 {
+        left: 400px;
+    }
+
+    .text_content {
+        margin-left: 200px;
+        font-size: 50px;
+    }
+    
+    .pic1 {
+        margin-left: 150px;
+    }
+    
+    .pic2 {
+        margin-right: 150px;
+    }
+    
+    .pic3 {
+        margin-left: 200px;
+    }
+    
+    .text_title {
+        margin-left: 200px;
+    }
+    
+    .email {
+        margin-left: 100px;
+    }
+    
+    .logo {
+        margin-right: 300px;
+    }
+}
+
+@media (max-width: 992px) {
+    .header {
+        padding: 0 20px;
+        height: auto;
+        padding: 20px 0;
+        text-align: center;
+    }
+    
+    .logo_text {
+        display: block;
+        margin-right: 0;
+        line-height: normal;
+        margin-bottom: 15px;
+    }
+    
+    .menu {
+        display: block;
+    }
+    
+    .menu a {
+        line-height: normal;
+        margin: 0 15px;
+    }
+    
+    .block_1 {
+        text-align: center;
+    }
+    
+    .title_text {
+        display: block;
+        width: auto;
+        font-size: 60px;
+        top: 0;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    
+    .main_img {
+        display: inline-block;
+    }
+    
+    .circle, .gal {
+        display: none;
+    }
+    
+    .main_text {
+        text-align: center;
+        margin: 100px 40px 80px 40px;
+    }
+    
+    .gal2, .gal3 {
+        display: none;
+    }
+    
+    .text_content {
+        margin: 50px 0;
+        text-align: center;
+    }
+    
+    .pic1, .pic2, .pic3, .pic4 {
+        margin: 0 auto 40px auto !important;
+        width: 300px;
+    }
+    
+    .text_title {
+        margin: 0 0 40px 0;
+        text-align: center;
+    }
+    
+    .email {
+        margin: 0 0 40px 0;
+        text-align: center;
+    }
+    
+    .social {
+        width: auto;
+        margin: 0 20px 100px 20px;
+        text-align: center;
+    }
+    
+    .foot {
+        text-align: center;
+    }
+    
+    .foot p {
+        display: block;
+        margin: 15px 0 !important;
+    }
+    
+    .logo {
+        margin: 20px 0 !important;
+    }
+    
+    .privat, .conditions {
+        margin: 10px 0 !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .menu a {
+        font-size: 14px;
+        margin: 0 8px;
+    }
+    
+    .title_text {
+        font-size: 45px;
+    }
+    
+    .main_text {
+        font-size: 35px;
+        margin: 60px 20px 50px 20px;
+    }
+    
+    .text_content, .text_title {
+        font-size: 40px;
+    }
+    
+    .email {
+        font-size: 20px;
+    }
+    
+    .social a {
+        display: block;
+        margin: 10px 0 !important;
+    }
+    
+    .pic1, .pic2, .pic3, .pic4 {
+        width: 250px;
+    }
+}
